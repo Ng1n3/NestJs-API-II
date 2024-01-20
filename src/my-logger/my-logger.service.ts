@@ -9,7 +9,7 @@ export class MyLoggerService extends ConsoleLogger {
     const formattedEntry = `${Intl.DateTimeFormat('en-US', {
       dateStyle: 'short',
       timeStyle: 'short',
-      timeZone: 'American/Chicago',
+      timeZone: 'America/Chicago',
     }).format(new Date())}\t${entry}\n`;
     try {
       if (!fs.existsSync(path.join(__dirname, '..', '..', 'logs'))) {

@@ -36,3 +36,10 @@ lerna-debug.log*
 
 # ENV
 .env
+
+# unnecessary stuff
+.prettierrc
+nest-cli.json
+package-lock.json
+.eslintrc.js
+prisma/migrations
